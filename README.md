@@ -12,7 +12,9 @@
 
 
 <h2 id="工厂模式">工厂模式</h2>
+
 <br>
+
    * 就是实例化对象,用工厂方法代替new的操作.
    * 工厂模式包括工厂方法模式和抽象工厂模式.
    * 抽象工厂模式是工厂方法模式得扩展.
@@ -24,6 +26,7 @@
    ![工厂模式类图](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E7%B1%BB%E5%9B%BE.png?t=1 "工厂模式类图")
 	
    <h3 id="常见应用">常见应用</h3>
+   
    * JDBC
    
    ![工厂模式在JDBC的实现](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E5%9C%A8JDBC%E7%9A%84%E5%AE%9E%E7%8E%B0.png?t=1 "工厂模式在JDBC的实现")
