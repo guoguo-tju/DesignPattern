@@ -40,4 +40,45 @@
            4)如果Bean的配置文件中指定了init-method="init"属性,则会调用指定的初始化方法,则在instance3的基础上调用初始化方法init(),将对象最终初始化为instance4,这个初始化的名字是任意的.
 
 
+<br>
+
+
+<h2 id="代理模式">代理模式</h2>
+
+<br>
+
+   <h3 id="静态代理">静态代理</h3>
+   
+   
+   <h3 id="动态代理">动态代理</h3>
+   
+   
+    能不能通过一个类实现对火车汽车自行车等的动态代理呢？（即实现对不同类，不同方法的代理）
+
+	JDK动态代理：（见图片）
+	InvocationHandler接口，实现Invoke方法。
+	Proxy,newProxyInstance产生的动态代理类。
+
+	JDK动态代理实现步骤：
+	1.创建一个实现接口InvocationHandler的类，它必须实现invoke方法。
+	2.创建被代理的类（Car）以及接口（Moveable）
+	3.调用Proxy的静态方法，创建一个代理类
+	  Proxy.newProxyInstance().
+	4.通过代理调用方法。
+
+	cglib动态代理:
+
+	两种代理方式的比较:
+	JDK动态代理只能代理实现了接口的类.
+	cglib动态代理针对类来实现代理的,对指定的目标类产生一个子类,通过方法拦截技术拦截所有父类方法的调用.
+	cglib使用继承的方式实现代理，所以不能对final修饰类进行代理
+
+	cglib实现步骤:
+	1.先要引入cglib的jar包.
+	2.创建一个类(可以不实现接口)
+	3.创建一个类CglibProxy实现MethodInterceptor接口,返回代理类.
+	  一个getProxy(),返回代理类,enhancer,帮助生成代理类.
+	4.cglibProxy.getProxy()获得代理类并使用.
+
+	
 	
