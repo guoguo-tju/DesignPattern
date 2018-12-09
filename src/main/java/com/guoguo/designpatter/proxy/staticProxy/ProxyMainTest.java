@@ -1,4 +1,4 @@
-package com.guoguo.designpatter.proxy;
+package com.guoguo.designpatter.proxy.staticProxy;
 
 /**
  *  静态代理:代理和被代理对象在代理之前是确定的.他们都实现相同的接口或者继承相同的抽象类.
@@ -6,7 +6,7 @@ package com.guoguo.designpatter.proxy;
  *    使用继承的方式实现,代理类会无限膨胀下去,每种功能就要实现一次代理.
       使用聚合的方式实现,只要调整代理的顺序,更加灵活,因为代理之间是会互相传递,互相组合的.推荐
  */
-public class ProxyMain {
+public class ProxyMainTest {
 
 
     public static void main(String[] args) {

@@ -1,9 +1,10 @@
-package com.guoguo.designpatter.proxy;
+package com.guoguo.designpatter.proxy.staticProxy;
 
 /**
  *  通过继承Car重写的父类方法实现代理
  *  通过代理记录汽车行驶的时间
  */
+
 public class Car2 extends Car {
 
     @Override

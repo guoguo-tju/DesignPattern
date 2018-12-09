@@ -1,4 +1,4 @@
-package com.guoguo.designpatter.proxy;
+package com.guoguo.designpatter.proxy.staticProxy;
 
 /**
  * 通过聚合来实现方法代理 , 记录汽车行驶的时间

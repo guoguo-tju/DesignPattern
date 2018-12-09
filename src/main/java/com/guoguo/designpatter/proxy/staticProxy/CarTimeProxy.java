@@ -1,4 +1,4 @@
-package com.guoguo.designpatter.proxy;
+package com.guoguo.designpatter.proxy.staticProxy;
 
 public class CarTimeProxy implements Moveable {
 

@@ -1,4 +1,4 @@
-package com.guoguo.designpatter.proxy;
+package com.guoguo.designpatter.proxy.staticProxy;
 
 public interface Moveable {
 
