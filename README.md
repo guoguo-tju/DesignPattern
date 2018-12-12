@@ -78,6 +78,9 @@
 	3. 创建一个类CglibProxy实现MethodInterceptor接口,返回代理类.
 	    一个getProxy(),返回代理类,enhancer,帮助生成代理类.
 	4. cglibProxy.getProxy()获得代理类并使用.
+	
+* 模拟JDK动态代理的内部实现:
+    通过Proxy的newProxyInstance返回代理对象
 
 	
 	
