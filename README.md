@@ -55,7 +55,9 @@
     能不能通过一个类实现对火车汽车自行车等的动态代理呢？（即实现对不同类，不同方法的代理）
     
 * JDK动态代理：（见图片）
-
+    
+    ![动态代理1](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E5%9C%A8JDBC%E7%9A%84%E5%AE%9E%E7%8E%B0.png?t=1 "动态代理1")
+    
 	1. InvocationHandler接口，实现Invoke方法。
 	2. Proxy,newProxyInstance产生的动态代理类。
 	
