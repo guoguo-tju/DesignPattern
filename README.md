@@ -56,7 +56,8 @@
     
 * JDK动态代理：（见图片）
     
-    ![动态代理1](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%E5%9C%A8JDBC%E7%9A%84%E5%AE%9E%E7%8E%B0.png?t=1 "动态代理1")
+    ![动态代理1](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%861.PNG "动态代理1")
+    ![动态代理2](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%862.PNG "动态代理2")
     
 	1. InvocationHandler接口，实现Invoke方法。
 	2. Proxy,newProxyInstance产生的动态代理类。
