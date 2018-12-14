@@ -107,5 +107,6 @@
    3. 重要负载的算法,核心算法设计为模板算法  
    
 <h3 id="实际应用">实际应用</h3>    
-    日志分析
-    ![模板模式处理日志解析](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F%E5%A4%84%E7%90%86%E6%97%A5%E5%BF%97%E8%A7%A3%E6%9E%90.png "模板模式处理日志解析")
+   日志分析
+    
+   ![模板模式处理日志解析](https://raw.githubusercontent.com/guoguo-tju/DesignPattern/master/src/main/resources/picture/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F%E5%A4%84%E7%90%86%E6%97%A5%E5%BF%97%E8%A7%A3%E6%9E%90.png "模板模式处理日志解析")
